@@ -1,71 +1,98 @@
-# Maze Solver Robot 🤖
-![Maze Solver Robot](MAZEROBOT.png)
+🤖 Maze Solver Robot
 
-## 📌 Project Overview
+An Arduino-based autonomous robot designed to navigate through a maze by detecting the path and making movement decisions using sensors.
 
-This project is an Arduino-based Maze Solver Robot designed to autonomously navigate through a maze by detecting paths and obstacles using sensors.
+📌 Project Overview
 
-The robot was developed and tested as part of a robotics competition.
+The Maze Solver Robot was developed as a team project for a robotics competition. The robot uses sensors to detect the maze path and an Arduino-based control system to process sensor inputs and control the motors.
 
-## ⚙️ Components Used
+The project combines embedded programming, sensor interfacing, motor control, and autonomous navigation to create a practical robotic system.
+
+🎯 Objectives
+
+- Develop an autonomous maze-navigation robot
+- Detect the path using sensors
+- Process sensor inputs using a microcontroller
+- Control DC motors according to detected conditions
+- Implement reliable movement and direction control
+- Test and improve the robot through practical experimentation
+
+⚙️ How It Works
+
+1. Sensors continuously detect the path and surrounding conditions.
+2. The Arduino reads and processes the sensor signals.
+3. Based on the sensor inputs, the control logic determines the required movement.
+4. The motor driver receives control signals from the Arduino.
+5. The DC motors drive the robot in the required direction.
+6. This process repeats continuously while the robot navigates through the maze.
+
+🔧 Hardware Components
 
 - Arduino
+- IR Sensors
 - Motor Driver
 - DC Motors
-- IR Sensors
-- Battery Supply
 - Robot Chassis
+- Battery Supply
 - Jumper Wires
 
-## 🔌 Circuit & Simulation
-
-The Proteus simulation/circuit diagram used for the project is included in this repository.
-
-📁 Check the circuit diagram file in the repository.
-
-## 💻 Code
-
-The Arduino source code used to control the robot is included in this repository.
-
-📁 Check the code file above.
-
-## 🤖 Working
-
-1. The sensors detect the maze path.
-2. Arduino processes the sensor signals.
-3. The motor driver controls the DC motors.
-4. The robot changes its direction according to the detected path.
-5. The robot continues navigating through the maze autonomously.
-
-## 🏆 Competition
-
-This robot was developed and used for a robotics competition.
-
-The participation certificate is also included in this repository.
-
-## 📷 Project Photos
-
-Photos of the actual robot and project implementation are available in this repository.
-
-## 🛠️ Technologies Used
+💻 Technologies & Concepts
 
 - Arduino
-- Embedded C / Arduino C
-- Proteus Simulation
-- Sensors
-- DC Motor Control
+- Embedded C/C++
+- Sensor Interfacing
+- Motor Control
+- Embedded Systems
+- Robotics
+- Autonomous Navigation
+- Real-Time Decision Making
 
-## 👨‍💻 Project Author
+🧠 Control Logic
 
-**Jayanth J**            |
-**Rithesh B M**          |
-**Harshith gowda M G**   |
-**Yashasvi**             |
+The robot continuously monitors sensor inputs and uses the detected conditions to determine whether to move forward, turn, or change its direction.
 
-Electronics and Communication Engineering (ECE)
+The control algorithm was tested and refined to improve the robot's ability to navigate the maze reliably.
 
-## 📄 Project Documentation
+📁 Repository Contents
 
-The circuit/simulation documentation and supporting project files are included in this repository.
+- Code — Arduino source code used for controlling the robot
+- Circuit — Circuit/simulation files
+- Documentation — Project documentation
+- Images — Project photographs and hardware setup
+- Videos — Demonstration of the robot in operation
 
-⭐ If you find this project useful, feel free to explore the repository!
+👥 Team Project
+
+This project was developed collaboratively as a team.
+
+Team Members:
+
+- Jayanth
+- Rithesh B M
+- Harshith Gowda M G
+- Yashasvi
+
+👨‍💻 My Contribution
+
+I contributed to the development, testing, and implementation of the Maze Solver Robot as part of the project team.
+
+My specific contributions:
+
+-Worked on the circuit
+-Assembled the robot
+-Worked with the sensors
+-tested and debug the errors in the robot. 
+
+🏆 Competition
+
+The robot was developed and tested as part of a robotics competition, providing hands-on experience in hardware integration, embedded programming, debugging, and autonomous robotic control.
+
+📸 Project
+
+Project images, circuit diagrams, source code, and other supporting documentation are available in this repository.
+
+🔗 Original Team Repository
+
+This repository is a fork of the team's original project repository:
+
+jayanth180506-jpg/Maze-Solver-Robot
