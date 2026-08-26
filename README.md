@@ -1,4 +1,5 @@
 # Maze Solver Robot 🤖
+![Maze Solver Robot](MAZEROBOT.png)
 
 ## 📌 Project Overview
 
