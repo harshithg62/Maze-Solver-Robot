@@ -57,6 +57,9 @@ Photos of the actual robot and project implementation are available in this repo
 ## 👨‍💻 Project Author
 
 **Jayanth J**
+**Rithesh B M**
+**Harshith gowda M G**
+**Yashasvi**
 
 Electronics and Communication Engineering (ECE)
 
