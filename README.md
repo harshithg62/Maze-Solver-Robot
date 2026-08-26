@@ -76,12 +76,14 @@ Team Members:
 
 I contributed to the development, testing, and implementation of the Maze Solver Robot as part of the project team.
 
-My specific contributions:
+My primary contributions to the project focused on the hardware integration, sensor interfacing, assembly, and testing of the robot.
 
--Worked on the circuit
--Assembled the robot
--Worked with the sensors
--tested and debug the errors in the robot. 
+- Designed and worked on the robot's circuit connections and hardware integration.
+- Assembled the robot and integrated the major hardware components.
+- Worked with the sensors and verified their operation during navigation.
+- Tested the robot under different maze conditions.
+- Identified and debugged hardware and sensor-related errors during testing.
+- Helped improve the reliability of the robot through iterative testing and troubleshooting.
 
 🏆 Competition
 
